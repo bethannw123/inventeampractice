@@ -1,0 +1,39 @@
+CopCam Dashboard </br><br/>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<%= link_to "CopCam Dashboard" , root_path, class: "navbar-brand" %>
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+        </li>
+        <li class="nav-item">
+        	<%= link_to "About Us", home_about_path, class: "nav-link" %>
+
+        </li>
+        <li class="nav-item">
+          <%= link_to "Audio Data", home_audiodata_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Video Data", home_videodata_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Location Data", home_locationdata_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Motion Data", home_motiondata_path, class: "nav-link" %>
+        </li>
+        
+
+
+         
+           
+          </ul>
+        
+      </ul>
+      
+    </div>
+  </div>
+</nav>
